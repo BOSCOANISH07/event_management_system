@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <h1 style="text-align: center">Welcome To Evently ... An Event Management Portal!</h1>
+    <link rel="stylesheet" href="total.css">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <title>Create Event</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <h2 id="common" style="text-align: center">Add Events</h2>
+</head>
+<body>
+    <div>
+        <left>
+            <p><a href="EventDetails.html"><button>Event Details Page</button></a></p>
+        </left>
+        <center>
+            <!-- Form to create an event -->
+            <form method="get" action="AddEvent.jsp">
+                <label>Event Number:</label><br><br>
+                <input id="text" type="text" name="EventNo" required><br><br>
+                <label>Event Name:</label><br><br>
+                <input id="text" type="text" name="EventName" required><br><br>
+                <label>Coordinator Name:</label><br><br>
+                <input id="text" type="text" name="CoordinatorName" required><br><br>
+                <label>Coordinator Number:</label><br><br>
+                <input id="text" type="text" name="CoordinatorNo" required><br><br>
+                <label>Fee for Registration:</label><br><br>
+                <input id="text" type="text" name="Fee" required><br><br>
+                <label>Venue of Event:</label><br><br>
+                <input id="text" type="text" name="Venue" required><br><br>
+                <label>Date of Event:</label><br><br>
+                <input id="date" type="text" name="Date" required><br><br>
+                <input type="submit" id="sub" value="Submit">
+            </form>
+        </center> 
+    </div>
+</body>
+</html>
